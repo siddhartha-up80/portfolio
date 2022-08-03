@@ -11,7 +11,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30}></FaLinkedin>
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/siddhartha-singh-68645a244/",
       style: "rounded-tr-md",
     },
     {

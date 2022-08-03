@@ -20,7 +20,7 @@ const Navbar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-200 hover:border-solid  hover:border-b-2 hover:border-white"
           >
             {link}
           </li>
@@ -36,7 +36,7 @@ const Navbar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize py-6 text-4xl duration-300 hover:border-solid hover:border-2 hover:border-white"
+            className="px-4 cursor-pointer capitalize py-6 text-4xl duration-75 hover:border-solid  hover:border-b-2 hover:border-white sm:hover:border-solid  sm:hover:border-b-2 sm:hover:border-white"
           >{link}</li>
         ))}
       </ul>)}

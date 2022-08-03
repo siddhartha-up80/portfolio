@@ -10,7 +10,7 @@ const Home = () => {
       >
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
           <div className="flex flex-col justify-center h-full">
-            <h2 className="text-4xl sm:text-5xl font-bold text-white">
+            <h2 className="text-4xl sm:text-5xl text-white">
               {"( work ) =>"} I am a React Developer
             </h2>
             <p className="text-gray-300 py-4 max-w-md">
@@ -37,7 +37,7 @@ const Home = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <p className="text-4xl sm:text-5xl font-bold text-white" >{"()=>"} I make "inators", without self distruct button </p>
+          <p className="text-4xl sm:text-5xl text-white" >{"()=>"} I make "inators", without self distruct button </p>
           <div className="text-white my-8">
             <img src="" alt="inators"/>
           </div>
