@@ -2,12 +2,12 @@ import React from "react";
 
 const Portfolio = () => {
   const portfolio = [
-    {
-      id: 1,
-      src: "https://source.unsplash.com/random/800x500/?money",
-      name: "Expensinator",
-      link: "",
-    },
+    // {
+    //   id: 1,
+    //   src: "https://source.unsplash.com/random/800x500/?money",
+    //   name: "Expensinator",
+    //   link: "",
+    // },
     {
       id: 2,
       src: "https://source.unsplash.com/random/800x500/?menu",
@@ -20,24 +20,24 @@ const Portfolio = () => {
       name: "Weatherinator",
       link: "https://github.com/siddhartha-up80/Weatherinator",
     },
-    {
-      id: 4,
-      src: "https://source.unsplash.com/random/800x500/?girl",
-      name: "Wallpaperinator",
-      link: "",
-    },
+    // {
+    //   id: 4,
+    //   src: "https://source.unsplash.com/random/800x500/?girl",
+    //   name: "Wallpaperinator",
+    //   link: "",
+    // },
     {
       id: 5,
       src: "https://source.unsplash.com/random/800x500/?code",
       name: "Websites",
       link: "https://github.com/siddhartha-up80/portfolio",
     },
-    {
-      id: 6,
-      src: "https://source.unsplash.com/random/800x500/?app",
-      name: "WebApps",
-      link: "https://github.com/siddhartha-up80/Textinator",
-    },
+    // {
+    //   id: 6,
+    //   src: "https://source.unsplash.com/random/800x500/?app",
+    //   name: "WebApps",
+    //   link: "https://github.com/siddhartha-up80/Textinator",
+    // },
   ];
 
   return (
