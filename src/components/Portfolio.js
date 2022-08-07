@@ -18,7 +18,7 @@ const Portfolio = () => {
       id: 3,
       src: "https://source.unsplash.com/random/800x500/?weather",
       name: "Weatherinator",
-      link: "https://github.com/siddhartha-up80/Weatherinator",
+      link: "https://guileless-praline-936dd8.netlify.app/",
     },
     // {
     //   id: 4,
