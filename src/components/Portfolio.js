@@ -13,12 +13,14 @@ const Portfolio = () => {
       src: "https://source.unsplash.com/random/800x500/?menu",
       name: "Menuinator",
       link: "https://github.com/siddhartha-up80/Menuinator",
+      code: "https://github.com/siddhartha-up80/Menuinator",
     },
     {
       id: 3,
       src: "https://source.unsplash.com/random/800x500/?weather",
       name: "Weatherinator",
-      link: "https://guileless-praline-936dd8.netlify.app/",
+      link: "https://weatherinator.netlify.app/",
+      code: "https://github.com/siddhartha-up80/Weatherinator",
     },
     // {
     //   id: 4,
@@ -28,9 +30,10 @@ const Portfolio = () => {
     // },
     {
       id: 5,
-      src: "https://source.unsplash.com/random/800x500/?code",
-      name: "Websites",
-      link: "https://github.com/siddhartha-up80/portfolio",
+      src: "https://source.unsplash.com/random/800x500/?cryptocurrency",
+      name: "Cryptoinator",
+      link: "https://cryptoinator.netlify.app",
+      code: "https://github.com/siddhartha-up80/Cryptoinator",
     },
     // {
     //   id: 6,
@@ -57,27 +60,29 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-08 sm:px10 sm:px-0">
-          {portfolio.map(({ id, src, name, link }) => (
+          {portfolio.map(({ id, src, name, link, code }) => (
             <div
               key={id}
               className="group shadow-md  shadow-gray-600 rounded-lg"
             >
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-                title={name}
-              />
+              <a href={link}>
+                <img
+                  src={src}
+                  alt="Inator"
+                  className="rounded-md duration-200 hover:scale-105"
+                  title={name}
+                />
+              </a>
+
               <div className="flex items-center justify-center">
                 <button className="w-1/2  py-3 m-0.5 duration-200 hover:scale-105 hover:border-solid  hover:border-b-2 hover:border-white">
                   <a href={link} target="_blank" rel="noreferrer">
-                    
                     {`{ ${name} }`}
                   </a>
                 </button>
                 <button className="w-1/2 py-3 m-0.5 duration-200 hover:scale-105 hover:border-solid  hover:border-b-2 hover:border-white">
                   <a
-                    href={link}
+                    href={code}
                     target="_blank"
                     rel="noreferrer"
                   >{`{ Code }`}</a>
