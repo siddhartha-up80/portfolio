@@ -4,7 +4,7 @@ const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
-      src: "https://source.unsplash.com/random/800x500/?profile",
+      src: "https://source.unsplash.com/random/800x500/?exel",
       name: "Managinator",
       link: "https://managinator.netlify.app",
       code: "https://github.com/siddhartha-up80/Managinator",
