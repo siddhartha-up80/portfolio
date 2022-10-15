@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
-import Inator from "./components/Inator.js"
+import Inator from "./components/Inator.js";
 function App() {
   return (
     <div className="">
@@ -18,8 +18,6 @@ function App() {
       <Experience></Experience>
       <Contact></Contact>
       <SocialLinks></SocialLinks>
-
-      
     </div>
   );
 }
