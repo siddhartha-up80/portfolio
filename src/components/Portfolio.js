@@ -2,12 +2,13 @@ import React from "react";
 
 const Portfolio = () => {
   const portfolio = [
-    // {
-    //   id: 1,
-    //   src: "https://source.unsplash.com/random/800x500/?money",
-    //   name: "Expensinator",
-    //   link: "",
-    // },
+    {
+      id: 1,
+      src: "https://source.unsplash.com/random/800x500/?profile",
+      name: "Managinator",
+      link: "https://managinator.netlify.app",
+      code: "https://github.com/siddhartha-up80/Managinator",
+    },
     {
       id: 2,
       src: "https://source.unsplash.com/random/800x500/?menu",
