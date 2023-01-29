@@ -27,8 +27,8 @@ const Portfolio = () => {
       id: 4,
       src: "https://source.unsplash.com/random/800x500/?notes",
       name: "Keepinator",
-      link : "https://keepinator.netlify.app/",
-      code : "https://github.com/siddhartha-up80/Keepinator",
+      link: "https://keepinator.netlify.app/",
+      code: "https://github.com/siddhartha-up80/Keepinator",
     },
     {
       id: 5,
@@ -37,12 +37,12 @@ const Portfolio = () => {
       link: "https://cryptoinator.netlify.app",
       code: "https://github.com/siddhartha-up80/Cryptoinator",
     },
-    // {
-    //   id: 6,
-    //   src: "https://source.unsplash.com/random/800x500/?app",
-    //   name: "WebApps",
-    //   link: "https://github.com/siddhartha-up80/Textinator",
-    // },
+    {
+      id: 6,
+      src: "https://source.unsplash.com/random/800x500/?app",
+      name: "Covidinator",
+      link: "https://github.com/siddhartha-up80/Covidinator",
+    },
   ];
 
   return (
