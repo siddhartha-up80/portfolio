@@ -41,7 +41,8 @@ const Portfolio = () => {
       id: 6,
       src: "https://source.unsplash.com/random/800x500/?app",
       name: "Covidinator",
-      link: "https://github.com/siddhartha-up80/Covidinator",
+      link: "https://covidinator.netlify.app",
+      code: "https://github.com/siddhartha-up80/Cryptoinator",
     },
   ];
 
