@@ -11,10 +11,10 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: "https://source.unsplash.com/random/800x500/?menu",
-      name: "Menuinator",
-      link: "https://github.com/siddhartha-up80/Menuinator",
-      code: "https://github.com/siddhartha-up80/Menuinator",
+      src: "https://source.unsplash.com/random/800x500/?saree",
+      name: "Swarna-Lehenga",
+      link: "https://swarnalehenga.vercel.app",
+      code: "https://github.com/siddhartha-up80/swarnalehenga",
     },
     {
       id: 3,
