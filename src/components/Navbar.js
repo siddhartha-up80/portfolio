@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import {Link} from "react-scroll"
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -10,9 +11,32 @@ const Navbar = () => {
     { id: 2, link: "about" },
     { id: 3, link: "portfolio" },
     { id: 4, link: "experience" },
-    { id: 5, link: "contact" },
+    { id: 6, link: "contact" },
+    
   ];
 
+  const links2 = [
+    {
+      id: 7,
+      name: "LinkedIn",
+      link: "https://www.linkedin.com/in/siddhartha-singh-68645a244/",
+    },
+    {
+      id: 8,
+      name: "GitHub",
+      link: "https://github.com/siddhartha-up80",
+    },
+    {
+      id: 9,
+      name: "Mail",
+      link: "mailto:siddhartha.singh3093@gmail.com",
+    },
+    {
+      id: 9,
+      name: "Resume",
+      link: "./resume.pdf",
+    },
+  ];
   return (
     <div className=" flex justify-between items-center w-full h-20 text-white bg-black fixed px-4 ">
       <div>
@@ -35,11 +59,11 @@ const Navbar = () => {
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
             {nav && (<ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400 duration-300">
-        {links.map(({ id, link }) => (
+        {links2.map(({ id, name, link }) => (
           <li
             key={id}
             className="px-4 cursor-pointer capitalize py-6 text-4xl duration-75 hover:border-solid  hover:border-b-2 hover:border-white sm:hover:border-solid  sm:hover:border-b-2 sm:hover:border-white"
-          ><Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link></li>
+          ><a href={link} >{name}</a></li>
         ))}
       </ul>)}
       
