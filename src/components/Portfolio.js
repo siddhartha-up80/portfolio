@@ -18,10 +18,10 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: "https://source.unsplash.com/random/800x500/?weather",
-      name: "Weatherinator",
-      link: "https://weatherinator.netlify.app/",
-      code: "https://github.com/siddhartha-up80/Weatherinator",
+      src: "https://source.unsplash.com/random/800x500/?instagram",
+      name: "Chatagraminator",
+      link: "https://chatagraminator.vercel.app/",
+      code: "https://github.com/siddhartha-up80/chatagraminator",
     },
     {
       id: 4,
@@ -39,21 +39,21 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: "https://source.unsplash.com/random/800x500/?app",
-      name: "Covidinator",
-      link: "https://covidinator.netlify.app",
-      code: "https://github.com/siddhartha-up80/Cryptoinator",
+      src: "https://source.unsplash.com/random/800x500/?job",
+      name: "Jobinator",
+      link: "https://github.com/siddhartha-up80/jobinator",
+      code: "https://github.com/siddhartha-up80/jobinator",
     },
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-rose-900 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl py-2 font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl py-2 font-bold inline border-b-4 border-rose-600">
             {`{ Portfolio }`}
           </p>
           <p className="py-6">
@@ -66,7 +66,7 @@ const Portfolio = () => {
           {portfolio.map(({ id, src, name, link, code }) => (
             <div
               key={id}
-              className="group shadow-md  shadow-gray-600 rounded-lg"
+              className="group shadow-md  shadow-rose-600 rounded-lg"
             >
               <a href={link}>
                 <img
